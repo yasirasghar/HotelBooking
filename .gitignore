@@ -1,0 +1,40 @@
+## Build output
+bin/
+obj/
+
+## .NET
+*.user
+*.suo
+.vs/
+*.swp
+
+## SQLite — never commit the database file
+*.db
+*.db-shm
+*.db-wal
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+
+## Publish output
+publish/
+publish.zip
+
+## OS
+.DS_Store
+Thumbs.db
+
+## IDE
+.idea/
+.vscode/
+*.sln.iml
+
+## Logs
+*.log
+logs/
+
+## User secrets
+appsettings.Development.json
+secrets.json
